@@ -1,0 +1,51 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.05);
+	position: relative;
+}
+.input-group-addon{
+	font-weight: bold;
+}
+#stateCounty{
+	position: absolute;
+	top: 10px;
+	left:0;
+	right:0;
+}
+#stateCountyForm .input-group{
+	-webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+}
+
+#chartsContainer{
+	height:calc(100% - 100px);
+	margin-top: 70px;
+}
+#chartsContainer .col-xs-6{
+	height:100%;
+}
+
+#chartsContainer .eachChart{
+	height:100%;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.eachChart .alert{
+	position: absolute;
+	top:0;
+	bottom:0;
+	height: 52px;
+	margin:auto;
+	left:0;
+	right:0;
+	width:90%;
+	text-align: center;
+}
